@@ -21,7 +21,7 @@
 <a name="general-information"></a>
 
 ## General Information
-An simple program that utilize the `SIMD` concept to accelerate the search process. This program will prove that the `SIMD` concept is faster than the normal search process (`scalar`). The parameter of the comparison is the `time` that is needed to search the query. The result is gained by using device with `11th Gen Intel(R) COre(TM) i7-1165G7 @ 2.80GHz` processor and `8192MB` RAM.
+A simple program that utilize the `SIMD` concept to accelerate the search process. This program will prove that the `SIMD` concept is faster than the normal search process (`scalar`). The parameter of the comparison is the `time` that is needed to search the query. The result of the program is gained by using device with `11th Gen Intel(R) COre(TM) i7-1165G7 @ 2.80GHz` processor and `8192MB` RAM.
 
 <a name="creator-information"></a>
 
@@ -36,8 +36,8 @@ An simple program that utilize the `SIMD` concept to accelerate the search proce
 ## Features
 - This program will first ask the user to input the number of data (`n`) that will be used in the program.
 - Then, the program will ask user to input a `sequence of n data`. The data must separated by `space`.
-- After that, the program will ask user to input the number of query (`q`) that will be used in the program.
-- Finally, the program will output the result of the search process, that contains the `time` that is needed to search the query and the `index` of the data that is the query.
+- After that, the program will ask user to input query `q` that will be used in the program.
+- Finally, the program will output the result of the search process, that contains the `time` was needed to search the query and the `index` of the data that is the query.
 
 <a name="technologies-used"></a>
 
@@ -63,7 +63,6 @@ An simple program that utilize the `SIMD` concept to accelerate the search proce
 <a name="screenshots"></a>
 
 ## Screenshots
-- ON GOING
 <p>
   <img src="/image/SS1.png/">
   <p>Figure 1. Database</p>

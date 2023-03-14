@@ -21,7 +21,7 @@
 <a name="general-information"></a>
 
 ## General Information
-An simple program that utilize the `SIMD` concept to accelerate the search process.
+An simple program that utilize the `SIMD` concept to accelerate the search process. This program will prove that the `SIMD` concept is faster than the normal search process (`scalar`). The parameter of the comparison is the `time` that is needed to search the query. The result is gained by using device with `11th Gen Intel(R) COre(TM) i7-1165G7 @ 2.80GHz` processor and `8192MB` RAM.
 
 <a name="creator-information"></a>
 
@@ -34,7 +34,10 @@ An simple program that utilize the `SIMD` concept to accelerate the search proce
 <a name="features"></a>
 
 ## Features
-- ON GOING
+- This program will first ask the user to input the number of data (`n`) that will be used in the program.
+- Then, the program will ask user to input a `sequence of n data`. The data must separated by `space`.
+- After that, the program will ask user to input the number of query (`q`) that will be used in the program.
+- Finally, the program will output the result of the search process, that contains the `time` that is needed to search the query and the `index` of the data that is the query.
 
 <a name="technologies-used"></a>
 
@@ -52,35 +55,39 @@ An simple program that utilize the `SIMD` concept to accelerate the search proce
 <a name="usage"></a>
 
 ## Usage
-- ON GOING
-<!-- 1. Open the terminal in the project directory.
+1. Open the terminal in the project directory.
 2. `cd output` and then `main.exe` to run the program.
-3. The program will print out all of the result -->
+3. Complete all of the input that is asked by the program.
+4. The program will print out all of the result
 
 <a name="screenshots"></a>
 
 ## Screenshots
 - ON GOING
-<!-- <p>
+<p>
   <img src="/image/SS1.png/">
-  <p>Figure 1. Vector Database</p>
+  <p>Figure 1. Database</p>
   <nl>
   <img src="/image/SS2.png/">
-  <p>Figure 2. Project Process</p>
+  <p>Figure 2. Query</p>
   <nl>
   <img src="/image/SS3.png/">
   <p>Figure 3. Result</p>
   <nl>
-</p> -->
+</p>
 
 <a name="structure"></a>
 
 ## Structure
-- ON GOING
-<!-- ```bash
+```bash
+│   Doc.docx
+│   file.txt
 │   main.cpp
-│   Product Quantization for KNN.docx
+│   print_number.py
 │   README.md
+│
+├───.vscode
+│       settings.json
 │
 ├───image
 │       SS1.png
@@ -89,18 +96,19 @@ An simple program that utilize the `SIMD` concept to accelerate the search proce
 │
 └───output
         main.exe
-``` -->
+```
 
 <a name="project-status">
 
 ## Project Status
-Project is: _uncomplete_
+Project is: _complete_
 
 <a name="room-for-improvement">
 
 ## Room for Improvement
 Room for Improvement:
-- ON GOING
+- Accelerate the search process.
+- Improvement in the `time` that is needed to search the query to be more precise.
 
 <a name="acknowledgements">
 
